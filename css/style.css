@@ -1,3 +1,66 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+/* DEBUG */
+.debug {
+  background-color: pink;
+  border: 1px solid black;
+}
+/* /DEBUG */
+
+
+/* MIX */
+.list-inline {
+  margin-bottom: 0;
+}
+/* /MIX */
+
+/* BUTTONS */
+.btn_primary {
+  border: 1px solid rgb(0, 106, 255);
+}
+/* /BUTTONS */
+
+
+/* introduzione */
+/* header top */
+.header__top {
+  height: 70px;
+  line-height: 70px;
+  background-color: #fff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.header__top .logo {
+  width: 172px;
+  margin-bottom: 9px;
+}
+
+.main_nav li , .secondary_nav li {
+  margin-right: 10px;
+}
+
+.main_nav li a, .secondary_nav li a {
+  color: #000;
+  font-size: 14px;
+}
+
+.main_nav li a:hover, .secondary_nav li a:hover {
+  color: rgb(0, 106, 255);
+  text-decoration: none;
+}
+
+.secondary_nav li .btn_primary {
+  color: rgb(0, 106, 255);
+}
+
+.hamburger {
+  font-size: 20px;
+  color: rgba(58,138,255,255);
+}
+/* /header top */
+/* /introduzione */
