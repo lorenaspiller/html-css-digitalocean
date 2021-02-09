@@ -9,7 +9,6 @@ body {
 }
 /* /DEBUG */
 
-
 /* MIX */
 .list-inline {
   margin-bottom: 0;
@@ -20,7 +19,35 @@ body {
 .btn_primary {
   border: 1px solid rgb(0, 106, 255);
 }
+
+.btn-secondary {
+  background-color: #579aff;
+  color: #fff;
+  width: 100%;
+}
+
+.btn-sso {
+  background-color: #fff;
+  background-image: url('../img/google-icon.png');
+  background-size: 5%;
+  background-repeat: no-repeat;
+  background-position: 2% 50%;
+  width: 100%;
+  color: #626262;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, .2);
+}
 /* /BUTTONS */
+
+/* TYPO */
+h1 {
+  font-size: 58px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 28px;
+}
+/* /TYPO */
 
 
 /* introduzione */
@@ -29,10 +56,10 @@ body {
   height: 70px;
   line-height: 70px;
   background-color: #fff;
-  position: fixed;
+  /* position: fixed;
   left: 0;
   top: 0;
-  width: 100%;
+  width: 100%; */
 }
 
 .header__top .logo {
@@ -63,4 +90,61 @@ body {
   color: rgba(58,138,255,255);
 }
 /* /header top */
+
+/* hero */
+.hero {
+  background-color: #0069ff;
+  background-image: url('../img/hero-bg.svg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 70px 0;
+}
+
+.hero__text {
+  font-size: 22px;
+  color: #bbcdff;
+}
+
+.hero .box-form {
+  min-height: 120px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px 20px;
+  color: #000;
+}
+
+.box-form__second-title {
+  color: #006aff;
+  line-height: 45px;
+}
+
+label {
+  display: none;
+}
+
+.form,
+.btn-secondary,
+.btn-sso {
+  margin-bottom: 10px;
+}
+
+.box-form_terms {
+  text-decoration: underline;
+  color: #006aff;
+}
+/* /hero */
+
 /* /introduzione */
+
+/* RESPONSIVE */
+
+/* < 992px */
+@media screen and (max-width: 992px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+/* /< 992px */
+
+/* /RESPONSIVE */
