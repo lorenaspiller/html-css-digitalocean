@@ -22,6 +22,9 @@ body {
   color: #006aff;
 }
 
+ul {
+  list-style-type: none;
+}
 /* /MIX */
 
 /* BUTTONS */
@@ -54,7 +57,19 @@ h1 {
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 33px;
+}
+
+h5 {
+  color: #031b4e;
+  font-weight: bold;
+  font-size: 17px;
+  margin: 20px 0 10px 0;
+}
+
+p {
+  color: #5b6987;
+  font-weight: 500;
 }
 /* /TYPO */
 
@@ -126,6 +141,7 @@ h2 {
 
 .box-form__main-title {
   line-height: 40px;
+  font-size: 28px;
 }
 
 .form,
@@ -172,6 +188,45 @@ h2 {
   font-weight: 700;
 }
 /* /brands */
+
+/* deploy */
+#deploy {
+  padding: 40px 0;
+}
+
+.deploy__list {
+  border-left: 1px solid #ccc;
+  padding: 10px 10px;
+}
+
+.cluster,
+.optimized-compute,
+.one-click-app,
+.global-availability {
+  display: inline-block;
+  width: calc( (100% / 2) - 4px);
+  vertical-align: top;
+  margin-bottom: 20px;
+}
+
+.deploy__text {
+  font-size: 20px;
+}
+
+.deploy__intro {
+  margin: 30px 0 50px 0;
+}
+
+.deploy__list li {
+  margin-bottom: 10px;
+}
+
+.deploy__list li a {
+  color: rgba(3, 27, 78, 0.6);
+  font-size: 16px;
+  font-weight: 500;
+}
+/* /deploy */
 /* /main */
 
 
@@ -203,6 +258,8 @@ h2 {
 
 /* < 768px */
 @media screen and (max-width: 768px) {
+  /* main */
+  /* brands */
   .brands__list li {
     width: calc( ( 100% / 2 ) - 44px );
     margin: 0 20px;
@@ -212,6 +269,18 @@ h2 {
   .brands__list li .brand {
     width: 80%;
   }
+  /* /main */
+  /* /brands */
+
+  /* deploy */
+  .cluster,
+  .optimized-compute,
+  .one-click-app,
+  .global-availability {
+    display: block;
+    width: 100%;
+  }
+  /* /deploy */
 }
 /* /< 768px */
 
