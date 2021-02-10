@@ -29,6 +29,14 @@ ul {
 .section_text {
   font-size: 20px;
 }
+
+.anchor .arrow-right {
+  font-size: 10px;
+}
+
+.anchor {
+  font-weight: 700;
+}
 /* /MIX */
 
 /* BUTTONS */
@@ -183,14 +191,6 @@ p {
 .brands__list li .brand {
   width: 100%;
 }
-
-.brands__anchor .arrow-right {
-  font-size: 10px;
-}
-
-.brands__anchor {
-  font-weight: 700;
-}
 /* /brands */
 
 /* deploy */
@@ -272,6 +272,16 @@ p {
 }
 /* /designed for developers */
 
+/* the features your business needs */
+#features {
+  padding: 40px 0;
+}
+
+.features__box {
+  padding: 10px;
+  margin-top: 30px;
+}
+/* /the features your business needs */
 /* /main */
 
 
