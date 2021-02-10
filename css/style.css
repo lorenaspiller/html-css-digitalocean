@@ -32,6 +32,7 @@ ul {
 
 .anchor .arrow-right {
   font-size: 10px;
+  margin-left: 10px;
 }
 
 .anchor {
@@ -273,7 +274,7 @@ p {
   margin: 0 2px;
 }
 
-.dfd__carousel .carousel__freccia:first-child {
+.carousel__freccia:first-of-type {
   color: #6f7b97;
 }
 /* /designed for developers */
@@ -339,6 +340,44 @@ p {
   margin-left: 65px;
 }
 /* /around the world service */
+
+/* development */
+#development {
+  padding: 40px 0;
+}
+
+.dev__title {
+  margin-bottom: 50px;
+}
+
+.dev__carousel .carousel__slide {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 50px 0;
+  font-size: 21px;
+}
+
+.dev__carousel .slide__logo {
+  width: 50%;
+  margin: 20px 0;
+}
+
+.slide__signature, .carousel__slide .anchor {
+  font-size: 16px;
+}
+
+.carousel__slide .anchor {
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.dev__bullets .bullet {
+  font-size: 12px;
+  margin: 0 1px;
+  margin-top: 30px;
+}
+/* /development */
+
 
 /* /main */
 
