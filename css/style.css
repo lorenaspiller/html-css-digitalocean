@@ -321,14 +321,22 @@ p {
 }
 
 .tabella__server {
-  margin-right: 70px;
+
   font-weight: bold;
 }
 
 .tabella__location {
+  margin-left: 70px;
   color: #fff;
   opacity: 0.6;
   margin-bottom: 0;
+}
+
+.world_gruppo-sinistra .riga_tabella:first-child .tabella__location,
+.world_gruppo-sinistra .riga_tabella:nth-child(2) .tabella__location,
+.world_gruppo-destra .riga_tabella:first-child .tabella__location,
+.world_gruppo-destra .riga_tabella:nth-child(2) .tabella__location {
+  margin-left: 65px;
 }
 /* /around the world service */
 
