@@ -262,18 +262,14 @@ p {
   margin-top: 20px;
 }
 
-.dfd__bullets {
-  font-size: 10px;
-}
-
 .dfd__bullets .bullet {
+  font-size: 10px;
   margin: 0 2px;
 }
 
 .dfd__carousel .carousel__freccia:first-child {
   color: #6f7b97;
 }
-
 /* /designed for developers */
 
 /* /main */
@@ -302,6 +298,12 @@ p {
   }
   /* /main */
   /* /section brands */
+
+  /* designed for developers */
+  .dfd__bullets {
+    margin-top: 50px;
+  }
+  /* /designed for developers */
 }
 /* /< 992px */
 
@@ -330,6 +332,29 @@ p {
     width: 100%;
   }
   /* /deploy */
+
+  /* designed for developers */
+  .dfd__intro h2 {
+    font-size: 25px;
+  }
+
+  .section_text {
+    font-size: 18px;
+  }
+
+  .dfd__carousel {
+    margin-top: 60px;
+  }
+
+  .carousel__freccia {
+    display: none;
+  }
+
+  .dfd__bullets .bullet {
+    margin: 0 1px;
+    font-size: 8px;
+  }
+  /* /designed for developers */
 }
 /* /< 768px */
 
