@@ -57,6 +57,15 @@ clearfix::after {
   width: 100%;
 }
 
+.btn-white {
+  background-color: #fff;
+  color: #0069ff;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 8px 15px;
+  margin-top: 20px;
+}
+
 .btn-sso {
   background-color: #fff;
   background-image: url('../img/google-icon.png');
@@ -261,7 +270,7 @@ p {
 
 .carousel__freccia {
   font-size: 40px;
-  margin: 0 10px;
+  margin: 0 15px;
 }
 
 .carousel__caption {
@@ -378,13 +387,17 @@ p {
 }
 /* /development */
 
-
+/* get started */
+#get-started {
+  padding: 50px 0 40px 0;
+  background-color: #0069ff;
+  background-image: url('../img/bg-home-cta.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+/* /get started */
 /* /main */
-
-
-
-
-
 
 
 
