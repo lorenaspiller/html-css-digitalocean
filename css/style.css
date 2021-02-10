@@ -37,6 +37,12 @@ ul {
 .anchor {
   font-weight: 700;
 }
+
+clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
 /* /MIX */
 
 /* BUTTONS */
@@ -282,6 +288,50 @@ p {
   margin-top: 30px;
 }
 /* /the features your business needs */
+
+/* around the world service */
+#world {
+  background-color: #031b4e;
+  background-image: url('../img/bg-map.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  padding: 60px 40px;
+}
+
+.riga_tabella {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  font-size: 13px;
+  padding: 12px 0;
+}
+
+.tabella__location,
+.tabella__speed {
+  display: inline-block;
+}
+
+.tabella__server,
+.tabella__location {
+  float: left;
+}
+
+.tabella__speed {
+  float: right;
+}
+
+.tabella__server {
+  margin-right: 70px;
+  font-weight: bold;
+}
+
+.tabella__location {
+  color: #fff;
+  opacity: 0.6;
+  margin-bottom: 0;
+}
+/* /around the world service */
+
 /* /main */
 
 
@@ -314,8 +364,15 @@ p {
     margin-top: 50px;
   }
   /* /designed for developers */
+
+  /* world */
+  .world_gruppo-destra {
+    margin-top: 40px;
+  }
+  /* /world */
 }
 /* /< 992px */
+
 
 /* < 768px */
 @media screen and (max-width: 768px) {
