@@ -25,6 +25,10 @@ body {
 ul {
   list-style-type: none;
 }
+
+.section_text {
+  font-size: 20px;
+}
 /* /MIX */
 
 /* BUTTONS */
@@ -207,10 +211,7 @@ p {
   width: calc( (100% / 2) - 4px);
   vertical-align: top;
   margin-bottom: 20px;
-}
-
-.deploy__text {
-  font-size: 20px;
+  padding: 10px;
 }
 
 .deploy__intro {
@@ -227,6 +228,54 @@ p {
   font-weight: 500;
 }
 /* /deploy */
+
+/* designed for developers */
+#designed-for-developers {
+  padding: 40px 0;
+}
+
+.dfd__carousel {
+  margin-top: 40px;
+}
+
+.carousel__freccia, .carousel__slide {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.carousel__slide  {
+  max-width: 50%;
+  height: auto;
+}
+
+.carousel__slide img {
+  width: 100%;
+}
+
+.carousel__freccia {
+  font-size: 40px;
+  margin: 0 10px;
+}
+
+.carousel__caption {
+  color: #031b4e;
+  margin-top: 20px;
+}
+
+.dfd__bullets {
+  font-size: 10px;
+}
+
+.dfd__bullets .bullet {
+  margin: 0 2px;
+}
+
+.dfd__carousel .carousel__freccia:first-child {
+  color: #6f7b97;
+}
+
+/* /designed for developers */
+
 /* /main */
 
 
