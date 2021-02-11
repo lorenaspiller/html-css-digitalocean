@@ -614,6 +614,9 @@ footer div:nth-of-type(4) li:nth-of-type(6) span {
 
 /* < 768px */
 @media screen and (max-width: 768px) {
+  h2 {
+    font-size: 28px
+  }
   /* main */
   /* brands */
   .brands__list li {
@@ -636,6 +639,14 @@ footer div:nth-of-type(4) li:nth-of-type(6) span {
     display: block;
     width: 100%;
   }
+
+  .deploy__list li a {
+    font-size: 17px;
+  }
+
+  .deploy__list {
+    margin-bottom: 30px;
+  }
   /* /deploy */
 
   /* designed for developers */
@@ -649,6 +660,10 @@ footer div:nth-of-type(4) li:nth-of-type(6) span {
 
   .dfd__carousel {
     margin-top: 60px;
+  }
+
+  .carousel__slide {
+    max-width: 80%;
   }
 
   .carousel__freccia {
