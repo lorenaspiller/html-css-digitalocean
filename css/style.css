@@ -56,6 +56,15 @@ a:hover {
   border: 1px solid #006aff;
 }
 
+.secondary_nav li .btn_primary {
+  color: rgb(0, 106, 255);
+}
+
+.secondary_nav li .btn_primary:hover {
+  background-color: #006aff;
+  color: #fff;
+}
+
 .btn-secondary {
   background-color: #579aff;
   color: #fff;
@@ -141,10 +150,6 @@ p {
 .main_nav li a:hover, .secondary_nav li a:hover {
   color: rgb(0, 106, 255);
   text-decoration: none;
-}
-
-.secondary_nav li .btn_primary {
-  color: rgb(0, 106, 255);
 }
 
 .hamburger {
@@ -281,6 +286,7 @@ p {
 .carousel__freccia {
   font-size: 40px;
   margin: 0 15px;
+  cursor: pointer;
 }
 
 .carousel__caption {
@@ -507,6 +513,7 @@ footer div:nth-of-type(4) li:nth-of-type(6) span {
   border-radius: 5px;
   position: relative;
   margin-left: 15px;
+  cursor: pointer;
 }
 
 .squalo__img {
