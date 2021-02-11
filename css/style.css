@@ -45,6 +45,10 @@ ul {
   display: block;
   clear: both;
 }
+
+a:hover {
+  text-decoration: none;
+}
 /* /MIX */
 
 /* BUTTONS */
@@ -76,6 +80,10 @@ ul {
   width: 100%;
   color: #626262;
   box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, .2);
+}
+
+.btn-sso:hover {
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, .1)inset;
 }
 /* /BUTTONS */
 
@@ -215,11 +223,6 @@ p {
   padding: 40px 0;
 }
 
-.deploy__list {
-  border-left: 1px solid #ccc;
-  padding: 10px 10px;
-}
-
 .cluster,
 .optimized-compute,
 .one-click-app,
@@ -236,12 +239,18 @@ p {
 }
 
 .deploy__list li {
-  margin-bottom: 10px;
+  line-height: 40px;
+  padding-left: 15px;
+  border-left: 2px solid #ccc;
+}
+
+.deploy__list li:hover {
+  border-left: 2px solid #006aff;
 }
 
 .deploy__list li a {
   color: rgba(3, 27, 78, 0.6);
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
 }
 /* /deploy */
@@ -408,6 +417,11 @@ footer {
   padding: 40px 0;
 }
 
+.footer__social:hover,
+.footer__list a:hover {
+  color: #fff;
+}
+
 footer p {
   margin-bottom: 0;
 }
@@ -436,7 +450,7 @@ footer p {
   line-height: 30px;
 }
 
-.footer__list li:first-child a {
+.footer__list li:first-child {
   font-size: 18px;
   color: #fff;
 }
