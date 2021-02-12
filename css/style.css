@@ -56,6 +56,11 @@ a:hover {
 /* /MIX */
 
 /* BUTTONS */
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none;
+}
+
 .btn_primary {
   border: 1px solid #006aff;
 }
@@ -490,7 +495,7 @@ footer div:nth-of-type(4) li:nth-of-type(6) span {
 
 .nuvola, .squalo {
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: bottom;
 }
 
 .nuvola p {
@@ -510,9 +515,13 @@ footer div:nth-of-type(4) li:nth-of-type(6) span {
   bottom: 8px;
 }
 
+.helper .nuvola.triangle-right.triangle-up {
+  filter: drop-shadow(0px 0px 1px #ccc);
+}
+
 .squalo {
-  width: 60px;
-  height: 60px;
+  width: 64px;
+  height: 64px;
   background-color: #006aff;
   border-radius: 5px;
   position: relative;
@@ -540,6 +549,14 @@ footer div:nth-of-type(4) li:nth-of-type(6) span {
   background-color: #FF0000;
   border-radius: 50%;
   border: 3px solid #fff;
+}
+
+.nuvola.triangle-right.triangle-up {
+  display: none;
+}
+
+.helper:hover .nuvola.triangle-right.triangle-up{
+  display: inline-block;
 }
 /* /footer */
 
@@ -571,6 +588,10 @@ footer div:nth-of-type(4) li:nth-of-type(6) span {
   .world_gruppo-destra {
     margin-top: 40px;
   }
+
+  .tabella__speed {
+    width: 30%;
+  }
   /* /world */
 
   /* footer */
@@ -586,6 +607,13 @@ footer div:nth-of-type(4) li:nth-of-type(6) span {
   }
 
   .squalo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 10px;
+  }
+
+  .helper:hover .squalo {
     position: absolute;
     bottom: 70px;
     right: 0;
