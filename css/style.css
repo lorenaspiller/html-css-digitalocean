@@ -602,22 +602,15 @@ footer div:nth-of-type(4) li:nth-of-type(6) span {
     z-index: 12;
   }
 
-  .nuvola, .squalo {
-    display: block;
-  }
-
   .squalo {
     position: absolute;
-    bottom: 0;
+    bottom: 68px;
     right: 0;
     margin-bottom: 10px;
   }
-
-  .helper:hover .squalo {
-    position: absolute;
-    bottom: 70px;
-    right: 0;
-    margin-bottom: 10px;
+  
+  .nuvola.triangle-right.triangle-up {
+    display: inline-block;
   }
 
   .triangle-right::after {
